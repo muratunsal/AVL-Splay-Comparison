@@ -1,0 +1,5 @@
+# Performance Comparison of AVL and Splay Trees
+
+This program compares the performance of AVL and Splay trees based on the total number of comparisons and rotations. It reads characters from an input text file, inserting non-existing characters as keys into either an AVL or Splay tree and updating the frequency of existing ones. 
+
+For AVL trees, appropriate rotations are performed to maintain the AVL property after each insertion, whereas for Splay trees, necessary splays are performed after processing each character. Comparisons include both successful and unsuccessful searches, while rotations are counted only when required for AVL trees, with single and double rotations costing one and two time units respectively. In Splay trees, the rotation cost is proportional to the depth levels nodes traverse during splaying. The output details the total cost, comprising the sum of comparisons and rotations, for both tree types during construction and search operations.
